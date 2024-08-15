@@ -5,9 +5,5 @@ resource "aws_instance" "my-test" {
     instance_type = "t2.mirco"
     key_name = "devops-key"
   
-}
-  
-# tagging
-tags = {
-    name = "my-server"
+#
 }
