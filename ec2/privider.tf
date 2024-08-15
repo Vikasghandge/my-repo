@@ -4,6 +4,10 @@ resource "aws_instance" "my_ec2_instance" {
     key_name =  = "devops-key"
 }
 
-    tags = 
+     # Tags for the instance
+  tags = {
+    Name = "testing server"
+  }
+}
 
   
