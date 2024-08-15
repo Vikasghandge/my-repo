@@ -1,5 +1,5 @@
-pro "aws" "ec2_instance" {
-    region = "ap-south-1"
+provider "aws" {
+    region = ""
   
 }
 # aws resources 
