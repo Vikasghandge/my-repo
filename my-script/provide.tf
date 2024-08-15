@@ -4,7 +4,7 @@ provider "aws" {
 }
 # aws resources 
 
-resource "aws" "name" {
+resource "aws_instance" "my-test" {
   
 }
   
