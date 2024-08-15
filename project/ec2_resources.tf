@@ -54,3 +54,4 @@ resource "aws_eip" "two-tier-web-server-2-eip" {
   instance   = aws_instance.two-tier-web-server-2.id
   depends_on = [aws_internet_gateway.two-tier-igw]
 }
+
