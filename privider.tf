@@ -5,5 +5,5 @@ resource "aws" "ec2" {
   
 }
 tags = {
-    name = {testing sever}
+    name = {testing_sever}
 }
