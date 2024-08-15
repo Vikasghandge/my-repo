@@ -34,7 +34,7 @@ resource "aws_instance" "two-tier-web-server-2" {
   user_data = <<-EOF
 #!/bash/bin
 sudo apt update -y
-sudo amazon-linux-extras install nginx1 -y 
+sudo apt install nginx -y 
 sudo systemctl enable nginx
 sudo systemctl start nginx
 EOF
