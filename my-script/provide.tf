@@ -13,5 +13,5 @@ resource "aws_instance" "my-test" {
   
 # tagging
 tags = {
-    
+    name = "my-server"
 }
