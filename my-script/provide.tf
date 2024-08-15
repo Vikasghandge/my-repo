@@ -4,6 +4,8 @@ provider "aws" {
 }
 # aws resources 
 
-resource "a
+resource "aws" "name" {
+  
+}
   
 }
