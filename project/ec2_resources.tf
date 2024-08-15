@@ -42,16 +42,17 @@ EOF
 
 # Allocate Elastic IPs (EIPs) for EC2 instances
 resource "aws_eip" "two-tier-web-server-1-eip" {
-  vpc = true
+  domain = "vpc"
 
   instance   = aws_instance.two-tier-web-server-1.id
   depends_on = [aws_internet_gateway.two-tier-igw]
 }
 
 resource "aws_eip" "two-tier-web-server-2-eip" {
-  vpc = true
+  domain = "vpc"
 
   instance   = aws_instance.two-tier-web-server-2.id
   depends_on = [aws_internet_gateway.two-tier-igw]
 }
+
 
