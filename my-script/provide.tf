@@ -5,6 +5,7 @@ provider "aws" {
 # aws resources 
 
 resource "aws_instance" "my-test" {
+    ami = 
   
 }
   
