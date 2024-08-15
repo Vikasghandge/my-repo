@@ -3,7 +3,3 @@ resource "aws" "ec2" {
     instance_type = "t2.micro"
     
   
-}
-tags = {
-    name = {testing_sever}
-}
