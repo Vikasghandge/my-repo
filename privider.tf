@@ -4,7 +4,7 @@ resource "aws_instance" "my_ec2_instance" {
     keykey_name =  = "devops-key"
 }
 tags = {
-    name = my_ec2_insta
+    name = my_ec2_instance
 }
 
   
