@@ -6,5 +6,7 @@ resource "aws_instance" "my-test" {
     key_name = "devops-key"
   
 #tagg
-tags = 
+tags = {
+    name = "test-server"
+}
 }
