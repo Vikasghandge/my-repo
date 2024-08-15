@@ -11,7 +11,7 @@ resource "aws_db_instance" "two-tier-db-1" {
   parameter_group_name        = "default.mysql5.7"
   db_name                     = "two_tier_db1"  # Name of the initial database
   username                    = "admin"  # Master username
-  password                    = "password"  # Master password
+  password                    = "245226"  # Master password
   allow_major_version_upgrade = true  # Allow major version upgrades
   auto_minor_version_upgrade  = true  # Enable automatic minor version upgrades
   backup_retention_period     = 35  # Retention period for automated backups in days
