@@ -5,7 +5,9 @@ provider "aws" {
 # aws resources 
 
 resource "aws_instance" "my-test" {
-    ami = 
+    ami = ""
+    instance_type = "t2.mirco"
+    
   
 }
   
