@@ -1,4 +1,5 @@
 resource "aws" "ec2_instance" {
-    region = "ap-sou"
+    region = "ap-south-1"
   
 }
+#
