@@ -32,7 +32,7 @@ resource "aws_subnet" "two-tier-pub-sub-2" {
 resource "aws_subnet" "two-tier-pvt-sub-1" {
   vpc_id                  = aws_vpc.two-tier-vpc.id
   cidr_block              = "10.0.128.0/18"
-  availability_zone       = "ap-southeast-1a"
+  availability_zone       = "ap-south-1a"
   map_public_ip_on_launch = false
   tags = {
     Name = "two-tier-pvt-sub-1"
@@ -41,7 +41,7 @@ resource "aws_subnet" "two-tier-pvt-sub-1" {
 resource "aws_subnet" "two-tier-pvt-sub-2" {
   vpc_id                  = aws_vpc.two-tier-vpc.id
   cidr_block              = "10.0.192.0/18"
-  availability_zone       = "ap-southeast-1b"
+  availability_zone       = "ap-south-1b"
   map_public_ip_on_launch = false
   tags = {
     Name = "two-tier-pvt-sub-2"
