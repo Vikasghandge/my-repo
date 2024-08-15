@@ -1,5 +1,6 @@
 provider "aws" {
-    region = ""
+    region = "ap-south-1"
   
 }
-# aws resources 
+# aws resources
+re 
