@@ -21,7 +21,7 @@ EOF
 
 # Public subnet EC2 instance 2
 resource "aws_instance" "two-tier-web-server-2" {
-  ami           = "ami-064eb0bee0c5402c5"
+  ami           = "ami-0ad21ae1d0696ad58"
   instance_type = "t2.micro"
   security_groups = [aws_security_group.two-tier-ec2-sg.id]
   subnet_id     = aws_subnet.two-tier-pub-sub-2.id
