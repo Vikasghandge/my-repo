@@ -4,6 +4,7 @@ provider "aws" {
 }
 # aws resources 
 
-resource "aws" "name" {
+resource "aws" "instance_ec2" {
+    ami = 
   
 }
